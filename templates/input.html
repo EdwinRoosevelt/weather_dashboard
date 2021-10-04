@@ -1,0 +1,12 @@
+<html>
+    <head>
+        <title>Weather Dashboard</title>
+    </head>
+    <body>
+        <h1>Weather Dashboard</h1>
+        <form action="{{ url_for('render_result') }}" method='POST'>
+            City: <input type='text' name='city_name'><br><br><br>
+            <input type='submit' value='Submit'>
+        </form>
+    </body>
+</html>
